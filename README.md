@@ -1,75 +1,88 @@
-# Nuxt Minimal Starter
+# 📘 The Porto
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Web portfolio modern yang dilengkapi blog berbasis Markdown.
+The Porto dibangun dengan Nuxt 4 dan Nuxt Content v3, dirancang sederhana, cepat, dan mudah dikembangkan.
+Proyek ini akan diperbarui secara bertahap ketika ada waktu senggang, termasuk kemungkinan penambahan fitur baru seperti halaman proyek dinamis, mode gelap, atau integrasi API di masa depan.
 
-## Setup
+## 🚀 Teknologi yang Digunakan
 
-Make sure to install dependencies:
+- Nuxt 4
+- Nuxt Content v3
+- Bun
+- Tailwind CSS
 
-```bash
-# npm
-npm install
+## 🛠️ Cara Menjalankan Proyek
+1️⃣ Clone Repository
+```
+git clone https://github.com/username/the-porto.git
+cd the-porto
+```
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
+2️⃣ Install Dependencies
+```
 bun install
 ```
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
+3️⃣ Jalankan Development Server
+```
 bun run dev
 ```
 
-## Production
+Aplikasi berjalan di:
 
-Build the application for production:
+http://localhost:3000
 
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
+4️⃣ Build untuk Production
+```
 bun run build
 ```
 
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
+5️⃣ Preview Production Build
+```
 bun run preview
 ```
 
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## ✍️ Menambahkan Konten Blog
+
+Konten blog ditulis dengan Markdown dan disimpan di folder content/.
+
+Contoh file:
+```
+---
+title: "Judul Artikel"
+description: "Deskripsi singkat artikel"
+publishedAt: "2025-01-01"
+---
+```
+### Judul Artikel
+Isi artikel ditulis menggunakan Markdown.
+
+## 📦 Fitur Utama
+
+1. Blog berbasis Markdown
+2. Portofolio pribadi yang dapat diperluas
+3. SEO-friendly
+4. Struktur fleksibel untuk pengembangan fitur lanjutan
+
+## 🕒 Status Proyek
+
+Proyek ini akan diperbarui ketika ada waktu senggang.
+Beberapa rencana pengembangan selanjutnya:
+
+1. Halaman project showcase
+2. Mode gelap/terang
+3. Komponen UI tambahan
+4. Integrasi API
+
+## 🧑‍💻 Kontribusi
+
+Saran dan kontribusi sangat diterima.
+
+1. Fork repository
+2. Buat branch baru
+3. Commit perubahan
+4. Ajukan Pull Request
+
+## 📄 Lisensi
+
+Silakan gunakan lisensi sesuai kebutuhan (contoh: MIT).
